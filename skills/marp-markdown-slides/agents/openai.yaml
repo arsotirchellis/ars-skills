@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marp Markdown Slides"
+  short_description: "Create and export Marp slide decks"
+  default_prompt: "Use $marp-markdown-slides to create or refine a Marp slide deck, choose the right directives and theme approach, and render it with Docker-first Marp CLI guidance."
