@@ -15,10 +15,14 @@ Create, edit, theme, and export Markdown slide decks. Use it for presentation ma
 Install the skill from this repository with:
 
 ```bash
-npx skills add arsotirchellis/ars-skills
+npx skills add arsotirchellis/ars-skills --skill marp-markdown-slides
 ```
 
-The `skills` CLI will scan the repository, find `marp-markdown-slides`, and prompt for the target agents to install to.
+If you want to target a specific agent at install time, use:
+
+```bash
+npx skills add arsotirchellis/ars-skills --skill marp-markdown-slides --agent codex
+```
 
 If you want to reference the skill directly by path, the canonical published location in this repo is:
 
