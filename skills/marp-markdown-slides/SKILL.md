@@ -86,3 +86,14 @@ paginate: true
 - Use `--allow-local-files` only when the deck genuinely depends on local assets and the input is trusted.
 - Separate deck authoring from export commands. The markdown should remain valid even when the CLI is unavailable.
 - Prefer the official Marp and Marpit sources in [`references/18-official-links.md`](references/18-official-links.md) when verifying behavior.
+
+## Skill Maintenance
+
+If you encounter a difficulty executing this skill or discover that part of it is outdated, update the relevant section of this skill before finishing.
+
+Record:
+- what the issue or stale instruction was
+- how you solved it
+- any path, command, or workflow changes needed next time
+
+Prefer tightening an existing section over adding duplicate guidance. Keep the update short and specific so the same issue does not need to be solved twice.
